@@ -23,6 +23,18 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="AutoGame.py" />
+    <Compile Include="ClickListener.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EventHook.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Global.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MouseHook.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
